@@ -1,0 +1,37 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Build and Dependency Files
+node_modules/
+target/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.class
+*.jar
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.iml
+
+# Environment Files
+.env
+
+# Log Files
+*.log
+
+# Temporary Files
+*.tmp
+*.swp
+
+# Terraform files
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.env
+.terraform.lock.hcl

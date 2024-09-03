@@ -3,7 +3,7 @@
 terraform {
   backend "s3" {
     bucket = "my-pricing-lambda-terraform-state"
-    region = var.aws_region
+    region = "us-west-1"
     key    = "pricing-lambda/terraform.tfstate"
   }
   required_version = ">= 0.13.0"
